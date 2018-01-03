@@ -11,3 +11,4 @@ COPY package.json /usr/src/app/
 RUN npm install
 
 CMD ["npm", "start"]
+VOLUME /usr/src/app/src/

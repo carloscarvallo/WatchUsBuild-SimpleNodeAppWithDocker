@@ -17,4 +17,6 @@ $ docker container run -p 9999:80 --name web-server --rm -v /Users/carloscarvall
 $ docker build -t web-server .
 $ docker image ls
 $ docker container run --name web-server --rm -p 9999:80 web-server:latest
+# stop a docker container
+$ docker stop web-server
 ```
